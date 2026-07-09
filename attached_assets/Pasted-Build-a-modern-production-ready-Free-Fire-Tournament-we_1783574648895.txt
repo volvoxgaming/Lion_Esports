@@ -1,0 +1,160 @@
+Build a modern, production-ready Free Fire Tournament web application with a premium gaming UI inspired by esports platforms. Use Next.js (TypeScript), Tailwind CSS, Node.js API routes, PostgreSQL (or Supabase), Prisma ORM, NextAuth authentication, and Firebase Cloud Messaging for notifications. The application must be responsive and optimized for desktop and mobile.
+
+Theme:
+- Dark gaming UI
+- Black background (#0B0B0B)
+- Red accent (#FF3B30)
+- White text
+- Smooth animations
+- Glassmorphism cards
+- Modern gaming design
+
+Features:
+
+1. User Authentication
+- Register
+- Login
+- Forgot Password
+- Email verification
+- Google login
+- User profile
+
+2. Home Page
+- Hero banner
+- Live tournaments
+- Upcoming tournaments
+- Featured tournaments
+- Winners section
+- Leaderboard
+- Latest announcements
+
+3. Tournament System
+- Solo
+- Duo
+- Squad
+- Clash Squad
+- BR Ranked
+- CS Ranked
+
+Each tournament should include:
+- Tournament image
+- Title
+- Entry fee
+- Prize pool
+- Map
+- Match type
+- Slots
+- Registered players
+- Date & Time
+- Status (Upcoming, Live, Finished)
+- Join button
+
+4. Join Tournament
+- Check wallet balance
+- Deduct entry fee
+- Confirm joining
+- Show registration success
+
+5. Room Details
+Only visible 10 minutes before match:
+- Room ID
+- Password
+- Start time
+- Copy button
+
+6. Wallet
+- Current balance
+- Deposit request
+- Withdraw request
+- Transaction history
+- Entry fee history
+- Prize history
+
+7. Leaderboard
+- Top players
+- Wins
+- Kill points
+- Total earnings
+
+8. Match Results
+- Position
+- Kills
+- Points
+- Prize won
+
+9. User Profile
+- UID
+- Username
+- Avatar
+- Matches played
+- Wins
+- Earnings
+- Edit profile
+
+10. Notifications
+- Tournament reminders
+- Room released
+- Result published
+- Deposit approved
+- Withdraw approved
+
+11. Admin Dashboard
+Secure admin login.
+
+Admin features:
+- Create tournament
+- Edit tournament
+- Delete tournament
+- Upload banner
+- Release Room ID
+- Publish results
+- Approve deposits
+- Approve withdrawals
+- Manage users
+- Ban users
+- Send announcements
+- Send push notifications
+- Dashboard analytics
+- Revenue report
+
+12. Database Tables
+Users
+Admins
+Wallet
+Transactions
+Tournaments
+Participants
+Rooms
+Results
+Notifications
+Announcements
+
+13. Security
+- JWT/NextAuth
+- Password hashing
+- Protected API routes
+- Rate limiting
+- Validation
+- SQL injection protection
+- XSS protection
+
+14. Responsive Design
+Perfect on:
+Desktop
+Tablet
+Mobile
+
+15. Folder Structure
+Use a clean scalable architecture with components, pages/app router, lib, hooks, services, prisma, public, and types folders.
+
+16. Code Quality
+- TypeScript everywhere
+- Reusable components
+- Comments where necessary
+- Clean architecture
+- Production-ready code
+- Environment variables for secrets
+
+17. Provide sample seed data so the app works immediately after setup.
+
+18. Include a README with setup instructions for running locally and deploying on Replit.

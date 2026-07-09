@@ -1,0 +1,1 @@
+- [Free Fire Tournament App](free-fire-app.md) — Expo mobile app structure, auth flow, and key TypeScript pitfalls discovered during build.
